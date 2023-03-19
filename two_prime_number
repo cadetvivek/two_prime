@@ -1,0 +1,26 @@
+// Two Primes Ended
+
+// Description
+// You are given two numbers, stored in variables with the following names a, b
+// If both the numbers are prime, print True , else print False
+
+
+let a = 11;
+let b = 17;
+let factor1 =0
+for(let i=0;i<=a;i++){
+  if(a%i==0){
+    factor1++
+  }
+}//console.log(factor1)
+let factor2=0
+for(let j=0;j<=b;j++){
+  if(b%j==0){
+    factor2++
+  }
+}//console.log(factor2)
+if(factor1==2&&factor2==2){
+  console.log("true")
+}else if{
+  console.log("false")
+}
